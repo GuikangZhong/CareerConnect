@@ -1,0 +1,20 @@
+.separator{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+  
+.separator .separator_text{
+    padding: 0 2rem;
+    color: gray;
+}
+  
+.separator .line{
+    flex: 1;
+    height: 1px;
+    background-color: gray;
+}
+
+.dashed_separator{
+    border-top: 1px dashed rgb(196, 196, 196);
+}

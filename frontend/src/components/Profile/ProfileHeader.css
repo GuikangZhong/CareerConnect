@@ -1,0 +1,12 @@
+.profile_logo{
+    width: 70px;
+    height: 70px;
+}
+
+.profile_company_name{
+    font-weight: normal;
+}
+
+.profile_location{
+    color: rgb(90, 90, 90);
+}

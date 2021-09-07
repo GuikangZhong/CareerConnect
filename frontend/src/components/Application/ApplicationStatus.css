@@ -1,0 +1,11 @@
+.vertical-timeline::before{
+    background: rgb(219, 219, 219);
+}
+
+.vertical-timeline-element-content {
+    box-shadow: none;
+}
+
+.vertical-timeline-element-icon svg{
+    margin-left: -7px;
+}

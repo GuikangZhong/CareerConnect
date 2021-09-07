@@ -1,0 +1,18 @@
+.application_card{
+    color: black;
+}
+
+.application_card:hover{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(240, 240, 240);
+}
+
+.application_card_location, .application_card_company_name, .application_card_date{
+    color: gray;
+}
+
+.application_card_company_logo{
+    width: 40px;
+    height: 40px;
+}

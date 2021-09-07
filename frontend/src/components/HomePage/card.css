@@ -1,0 +1,22 @@
+.job_card{
+    color: black;
+}
+
+.job_card:hover{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(240, 240, 240);
+}
+
+.job_card_salary{
+    color: rgb(236, 154, 0);
+}
+
+.job_card_location, .job_card_date, .job_card_company_name{
+    color: gray;
+}
+
+.job_card_company_logo{
+    width: 40px;
+    height: 40px;
+}

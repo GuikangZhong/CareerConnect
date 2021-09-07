@@ -1,0 +1,23 @@
+.application_logo{
+    width: 70px;
+    height: 70px;
+}
+
+.application_title{
+    font-weight: normal;
+}
+
+.application_date{
+    color: gray;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.application_location, .application_company{
+    font-size: 1rem;
+    color: black;
+}
+
+.application_status{
+    font-size: 1.3rem;
+}

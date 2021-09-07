@@ -1,0 +1,23 @@
+.job_posting_logo{
+    width: 70px;
+    height: 70px;
+}
+
+.job_posting_title{
+    font-weight: normal;
+}
+
+.job_posting_date{
+    color: gray;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.job_posting_salary, .job_posting_location, .job_posting_company{
+    font-size: 1rem;
+    color: black;
+}
+
+.job_posting_labels span{
+    font-size: 1rem;
+}
