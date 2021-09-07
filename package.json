@@ -1,0 +1,48 @@
+{
+  "name": "project-bubble-tea",
+  "version": "1.0.0",
+  "description": "Career Connect",
+  "main": "server.js",
+  "scripts": {
+    "heroku-postbuild": "cd frontend && npm install && npm run build",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix frontend",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UTSCC09/project-bubble-tea.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UTSCC09/project-bubble-tea/issues"
+  },
+  "homepage": "https://github.com/UTSCC09/project-bubble-tea#readme",
+  "dependencies": {
+    "@google-cloud/storage": "^5.8.1",
+    "archiver": "^5.3.0",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "express-session": "^1.17.1",
+    "fuse.js": "^6.4.6",
+    "graphql": "^15.5.0",
+    "graphql-upload": "^11.0.0",
+    "ioredis": "^4.24.2",
+    "mongoose": "^5.12.1",
+    "nodemailer": "^6.5.0",
+    "randomcolor": "^0.6.2",
+    "socket.io": "^3.1.2",
+    "uuid": "^8.3.2",
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
