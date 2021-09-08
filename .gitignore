@@ -1,0 +1,12 @@
+# OS Files
+Thumbs.db
+.DS_Store
+
+# node.js
+node_modules
+*-lock.json
+My Project 86645-9617d4997e9e.json
+gcpconfig.json
+
+#local development
+*.env
